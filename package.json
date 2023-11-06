@@ -18,7 +18,8 @@
     "build": "tsc --p ./tsconfig-build.json && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "ci": "yarn install --frozen-lockfile"
   },
   "sideEffects": [
     "**/*.css"
