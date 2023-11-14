@@ -5,6 +5,10 @@
 
 Keycap is a lightweight, customizable keyboard key (kbd) component for React. It's designed to visually represent keyboard keys in your user interface, complete with a "pressed" style to give users feedback when keys are active.
 
+## Preview
+
+You can see a live demo [here](https://keycap.vercel.app/).
+
 ## Features
 
 - Lightweight with no external dependencies.
@@ -16,14 +20,13 @@ Keycap is a lightweight, customizable keyboard key (kbd) component for React. It
 
 To install the package, use npm:
 
-````bash
+```bash
 npm install keycap
 
 or yarn:
 
-```bash
 yarn add keycap
-````
+```
 
 ## Usage
 
