@@ -42,7 +42,7 @@ export const Keycap: FC<KbdProps> = ({ activeKey, children, ...props }) => {
 
   const className = isKeyDown
     ? `${styles.key} ${styles.keyPressed}`
-    : styles.key;
+    : styles.key + ` ${props.className}`;
 
   return (
     <kbd {...props} className={className}>
